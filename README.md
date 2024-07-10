@@ -1,9 +1,14 @@
 # google-sheet-automation
 This is a simple python code to automate google sheet.
 
+## Install the Google client library
+* Install the Google client library for Python:
+
+      pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
+
 ## Step-by-Step Guide to Obtain keys.json
 ### Google Cloud Console
-* Go to the Google Cloud Console. Th url is https://console.cloud.google.com/
+* Go to the Google Cloud Console. The url is https://console.cloud.google.com/
 
 ### Select or Create a Project
 * Select an existing project from the project selector dropdown menu at the top of the page, or create a new project by clicking on the project name.
@@ -34,3 +39,8 @@ This is a simple python code to automate google sheet.
 ## Important note:
 * To finish, copy the email address of the service account (which is a randomly generated email ID representing the IAM user). Next, share the Google Sheets document with this email address and assign the appropriate permissions (viewer, editor, or owner) as needed.
 * Also its important to set the perimission of the IAM user correctly while creating the user.
+
+## Refrence
+### Google sheets official links:
+1. https://developers.google.com/sheets/api/quickstart/python
+2. https://developers.google.com/identity/protocols/oauth2/service-account#python
